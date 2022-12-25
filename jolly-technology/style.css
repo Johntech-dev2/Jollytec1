@@ -1,0 +1,362 @@
+/************ Defults ***************/
+nav,
+header,
+footer {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  margin: 0;
+}
+
+address {
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+label {
+  font-size: 35px;
+  font-weight: 500;
+
+}
+.container1 {
+  width: 100%;
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.row::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.col-1 {width:8.33%;}
+.col-2 {width:16.66%;}
+.col-3 {width:25%;}
+.col-4 {width:33.33%;}
+.col-5 {width:41.55%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.66%;}
+.col-12 {width:100%;}
+
+
+.fa-fa-fb {
+  border-radius: 20px;
+  width: 40px;
+
+} 
+
+.fa-fa-twiter {
+  border-radius: 20px;
+  width: 40px;
+} 
+
+.fa-fa-youtube {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+} 
+
+.fa-fa-insta {
+  border-radius: 20px;
+  width: 40px;
+} 
+
+.fa-fa-whats {
+  border-radius: 20px;
+  width: 40px;
+} 
+
+.fa-fa-gmail {
+  border-radius: 10px;
+  width: 40px;
+  height: 39px;
+} 
+
+
+
+/* ############Nav bar################ */
+nav {
+  width: 100%;
+  margin: 0;
+}
+
+nav ul {
+  background-color: #0000FF;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul.topnav li{
+  list-style: none;
+  float: left;
+}
+
+ul.topnav li.topnav-right{
+float: right;
+}
+
+ul.topnav li a , .logo{
+display:block;
+/*  min-height: 14px;*/
+font-size: 20px;
+text-align: left;
+padding: 14px;
+text-transform: uppercase;
+color: white;
+text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  background-color: white;
+  color: blue;
+  border-radius: 80px;
+  border: 40px;
+  width: fit-content;
+  transition-duration: 1.6533s;
+
+}
+
+ul.topnav li.dropdownIcon {
+display: none;
+}
+
+label {
+  font-family: "News706 BT";
+}
+
+.logo{
+  font-family: "News706 BT";
+}
+
+ul.topnav li  a:hover {
+  background-color: white ;
+  color: blue;
+  border-radius: 40px;
+  border: 40px;
+  width: fit-content;
+}
+.col1 a:hover{
+color: #076DFF;
+}
+ul.topnav li.dropdownIcon {
+  display: none;
+}
+
+h1.section2Header {
+  font-size: 50 px;
+  text-align: center;
+  font-family:"News706 BT";
+}
+div.box {
+  text-align: center;
+  margin: 24px;
+  padding: 36px 24px 40px 24px;
+  background-color: #cad9ee;
+  box-shadow: 0 0 0 1px  rgba(0,0,0,.15), 
+      0 2px 3px 0 rgba(0,0,0,.1);
+
+}
+div.icon {
+  width: 100%;
+}
+
+/***************custom styles************************/
+#section-1-gradient {
+  background: #65a5ff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #076DFF,blue ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#076DFF, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#076DFF, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#076DFF, blue); /* Standard syntax */
+}
+
+div.leftSide-col{
+  margin-left: 30%;
+}
+
+.rightSide-col {
+  margin-left: 30px;
+}
+
+h1.large {
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: "News706 BT";
+
+}
+/****************footsy******************/
+footer {
+  width: 100%;
+  padding: 100px 0.1px;
+  background: #333;
+  color: #efefef;
+  display: flex;
+  
+  
+}
+footer div {
+  text-align: center;
+}
+
+footer div h3 {
+  font-weight: 300;  
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.col1  a  {
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+  text-align: center;  
+} 
+.col2,
+.col3 {
+  text-align: center;
+}
+ form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+ }
+ form button {
+  background: transparent;
+  border: 5px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+ }
+ 
+ .call {
+  background: blue;
+  border: 5px solid ;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+ }
+
+
+.pf {
+  font-family: "Lucida Handwriting";
+}
+.doings{
+  line-height: 20px;
+  font-family: "Lucida Handwriting";
+  background-color: #cad9ee;
+  padding: 30px;
+  color: #076DFF;
+}
+
+.cbtn {
+  border-radius: 40px;
+  background-color: #0000FF;
+  color: #fffefe;
+}
+
+
+
+.my{
+  background-color: #65a5ff;
+}
+
+ .box1 {
+  text-align: center;
+  margin: 24px;
+  padding: 36px 24px 40px 24px;
+  background-color: #fffefe;
+  
+ }
+
+ img.pics {
+    border-radius: 1100px;
+    height: 300px;
+}
+/* *********** Mobile ************/
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(1)){
+  display: none;
+  }
+  
+  ul.topnav li.dropdownIcon{
+  display: inline;
+  float: right;
+  }
+  
+  ul.topnav.responsive li.dropdownIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  }
+  
+  ul.topnav.responsive {
+    position: relative;
+  }
+  
+  ul.topnav.responsive li {
+    display: block;
+    float: none;
+    }
+  
+   .col-6,
+   .col-4{
+     width: 100%;
+     margin: 0;
+   }
+
+   div.leftSide-col,
+   div.rightSide-col {
+     margin: 15px;
+   }
+
+   .picsContainer {
+     position: relative;
+     width: 100;
+     margin: 0;
+     overflow: hidden;
+     align-items: center;
+   }
+   footer,
+   .col1,
+   .col2,
+   .col3 {
+    width: 100%;
+    display: block;
+   }
+   /* footer {
+    position: relative;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   } */
+   form input {
+    width: 200px;
+   }
+ }
